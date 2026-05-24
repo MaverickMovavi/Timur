@@ -1,0 +1,104 @@
+body {
+    background:url(images/ввввв.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p {
+    width: 500px;
+}
+
+.logal {
+   width: 70%;
+}
+.haz {
+    float: right;
+}
+.tom {
+    width: 180px;
+}
+.berd {
+    width: 180px;
+}
+
+.ikonka {
+   width: 260px;
+}
+
+.rustt {
+ width: 20vw;
+}
+
+.gmod {
+width: 20vw;
+}
+
+.chippy {
+width: 20vw;
+}
+
+.sbox {
+width: 20vw;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    div img:hover {
+        transform: rotate(360deg);
+        transition: 2s;
+    }
+}
+
+@media (max-width: 600px) {
+    .logal {width: 100%;}
+    .flex {
+        justify-content: center;
+       
+    }
+}
+
+
+.info {
+    display: flex;
+}
+
+.text1 {
+    width: 20vw;
+    font-size: 20px;
+}
+
+.text2 {
+    width: 20vw;
+    font-size: 20px;
+}
+
+.text3 {
+    width: 20vw;
+    font-size: 20px;
+}
+
+.text4 {
+    width: 20vw;
+    font-size: 20px; 
+}
+
+.sss {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    .hhh {
+        
+
+    }
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    @media screen {
+        
+    }
+}
