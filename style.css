@@ -52,13 +52,6 @@ width: 20vw;
     }
 }
 
-@media (max-width: 600px) {
-    .logal {width: 100%;}
-    .flex {
-        justify-content: center;
-       
-    }
-}
 
 
 .info {
@@ -100,5 +93,20 @@ width: 20vw;
     background-color: aliceblue;
     @media screen {
         
+    }
+}
+
+
+@media (max-width: 600px) {
+    .logal {width: 100%;}
+    .flex {
+        justify-content: center;  
+    }
+    .sss {
+        flex-direction: column;
+        img {width: 95vw}
+    }
+    .text1, .text2, .text3, .text4 {
+        width: 100%;
     }
 }
